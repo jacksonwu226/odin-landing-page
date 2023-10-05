@@ -1,0 +1,29 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+
+.header{
+  background-color: #1F2937;
+  color: #F9FAF8;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.left-header{
+  font-weight: bold;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+a{
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
