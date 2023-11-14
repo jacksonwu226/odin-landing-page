@@ -1,4 +1,4 @@
-body{
+*{
   padding: 0px;
   margin: 0px;
 }
@@ -37,7 +37,8 @@ a{
   padding: 50px;
 }
 .content-1{
-  /* width: 1000px; */
+  /* border: 2px solid red; */
+
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -48,6 +49,7 @@ a{
   /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
+  gap: 40px;
 }
 .content-1 h2{
   /* border: 2px solid red; */
@@ -55,7 +57,6 @@ a{
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
-  margin: 0;
 }
 .content-1 p{
   /* border: 2px solid red; */
@@ -85,7 +86,7 @@ a{
 .content-2-grid{
   /* border: 2px solid red;  */
   display: flex;
-  width: 1000px;
+  width: 800px;
   flex:  0 1 auto;
   justify-content: space-evenly;
   gap: 20px;
@@ -110,4 +111,34 @@ a{
 }
 .content-2-grid .cards .text-container >p{
   text-align: center;
+}
+
+.quote-container{
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  background-color: #E5E7EB;
+}
+
+.quote{
+  display: flex;
+  width: 700px;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+
+
+}
+.quote>.content{
+  /* border: 2px solid red; */
+  font-style: italic;
+  font-weight: light;
+  font-size: 36px;
+  color: #1F2937;
+}
+.quote>.author{
+  /* border: 2px solid red; */
+  align-self: flex-end;
+  font-weight: bold;
+  padding-right: 20px;
 }
