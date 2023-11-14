@@ -34,11 +34,10 @@ a{
   background-color: #1F2937;
   display: flex;
   justify-content: center;
-  padding: 40px;
-  
+  padding: 50px;
 }
 .content-1{
-  width: 1000px;
+  /* width: 1000px; */
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -78,17 +77,37 @@ a{
 }
 
 .content-2-container{
-  border: 2px solid red; 
+  /* border: 2px solid red;  */
   display: flex;
   justify-content: center;
+  padding: 50px;
 }
 .content-2-grid{
-  border: 2px solid red; 
+  /* border: 2px solid red;  */
   display: flex;
   width: 1000px;
-  flex: 0 1 auto;
-}
-.content-2-grid .cards .img-container{
-  width: 100%;
+  flex:  0 1 auto;
+  justify-content: space-evenly;
+  gap: 20px;
+  /* flex-wrap: wrap; */
 
+}
+.content-2-grid .cards{
+  /* border: 2px solid green; */
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 5px;
+  margin: 0px;
+  gap: 2px;
+}
+.content-2-grid .cards >img{
+  width: 100%;
+  /* border: 2px solid black; */
+  border-radius: 15px;
+}
+.content-2-grid .cards .text-container >p{
+  text-align: center;
 }
