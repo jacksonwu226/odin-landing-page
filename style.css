@@ -177,3 +177,18 @@ a{
   font-size: 18px;
   color: #E5E7EB;
 }
+.footer-container{
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
+.footer-container>.message{
+  padding: 20px 10px;
+  font-size: 18px;
+  color: #E5E7EB;
+  text-align: center;
+  margin: 0px;
+}
