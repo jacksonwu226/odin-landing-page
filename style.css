@@ -66,15 +66,18 @@ a{
 .content-1  .img-container > img{
   border-radius: 10%;
 }
-.content-1 .sign-up-btn{
+.sign-up-btn{
   background-color: #3882F6;
   color: #E5E7EB;
   font-size: 18px;
-  border-color: gray;
+  border: none;
   text-decoration: none;
   padding: 10px;
   width: 100px;
   border-radius: 15px;
+}
+.call-to-action>.sign-up-btn{
+  border: 1px solid white;
 }
 
 .content-2-container{
@@ -141,4 +144,36 @@ a{
   align-self: flex-end;
   font-weight: bold;
   padding-right: 20px;
+}
+
+.call-to-action-container{
+  display: flex;
+  justify-content: center;
+}
+
+.call-to-action{
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+  background-color: #3882F6;
+  padding: 40px 0px;
+  margin: 100px;
+  border-radius: 1rem;
+}
+
+.message{
+  width: 40%;
+  min-height: 40px;
+  min-width: 100px;
+}
+.message>.heading{
+  font-size: 24px;
+  color: #F9FAF8;
+
+}
+.message>.content{
+  font-size: 18px;
+  color: #E5E7EB;
 }
